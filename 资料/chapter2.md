@@ -201,17 +201,18 @@ let myAge = 37;
       
 
       ```javascript
-        var n = 16  // number
-        var s = "are you ok?"  //string
-        var b = true  // boolean true/false
-        console.log("n is " + n + "," + "s is " + s + "," + "b is " + b) // 不推荐使用
-        console.log(`n is ${n} , s is ${s}, b is ${b}`) // 推荐使用
-      
-      let myNameArray = ['Chris', 'Bob', 'Jim']; // array,数组类型, index is from 0
-      console.log(myNameArray[0])
-      console.log(myNameArray.length)  // 打印数组长度
-      
-      let dog = { name : 'Spot', breed : 'Dalmatian' };  // key: value  , example: name is key, spot is value, json格式
-      console.log(dog.name + "," + dog.breed)  // 这种简单一点
-      console.log(dog['name'] + "," + dog['breed']) // 这种也可以
+ var n = 16  // number
+ var s = "are you ok?"  //string
+ var b = true  // boolean true/false
+ console.log("n is " + n + "," + "s is " + s + "," + "b is " + b) // 不推荐使用
+ console.log(`n is ${n} , s is ${s}, b is ${b}`) // 推荐使用
+ let myNameArray = ['Chris', 'Bob', 'Jim']; // array,数组类型, index is from 0
+ console.log(myNameArray[0])
+ console.log(myNameArray.length)  // 打印数组长度
+ let dog = { name : 'Spot', breed : 'Dalmatian' };  // key: value  , example: name is key, spot is value, json格式
+ console.log(dog.name + "," + dog.breed)  // 这种简单一点
+ console.log(dog['name'] + "," + dog['breed']) // 这种也可以
+          
       ```
+
+​             
